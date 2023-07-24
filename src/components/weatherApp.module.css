@@ -1,5 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 .weatherContainer{
-    width: 500px;
+    width: 30em;
     height: 500px;
     margin: 50px auto;
 }
+h1{
+  text-align: center;
+}
+@media (max-width: 767px) {
+    /* Agrega aquí tus estilos para pantallas pequeñas */
+    .weatherContainer{
+        width: 20em;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Agrega aquí tus estilos para pantallas medianas */
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Agrega aquí tus estilos para pantallas grandes */
+  }
+  
+  /* Estilos para pantallas extra grandes */
+  @media (min-width: 1200px) {
+    /* Agrega aquí tus estilos para pantallas extra grandes */}

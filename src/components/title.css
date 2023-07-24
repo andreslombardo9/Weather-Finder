@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+  body {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+
+  @media (max-width: 767px) {
+    
+  }

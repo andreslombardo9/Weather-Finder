@@ -1,8 +1,11 @@
-import WeatherApp from "./components/weatherApp";
+import Title from "./components/title.js";
+import WeatherApp from "./components/weatherApp.js";
 
 function App() {
-  return (
+  return (<>
+    <Title/>
     <WeatherApp />
+  </>
   );
 }
 
